@@ -24,3 +24,8 @@ Saya memeriksa ID pada HTML, memperbaiki selector, lalu menguji
 tombol melalui browser dan Console. Tidak ada kredensial atau
 data pribadi yang dikirimkan.
 12/09/2026
+
+Gejala	Bukti	Penyebab	Perbaikan	Hasil
+CSS Tidak tampil	Status (failed) net::ERR_FILE _NOT_FOUND_	Path salah	Memperbaiki path	200
+Tombol tidak bisa digunakan	TypeError: document.querrySelector is not a function	Console Error	Memperbaiki typo	Berhasil
+Gambar tidak dapat diload	Hanya ada teks alt	Adanya salah  pada penulisan code	Memperbaiki kesalahan penulisan	200
