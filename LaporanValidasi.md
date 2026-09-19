@@ -3,4 +3,9 @@ Nathalie Tampubolon
 D4 Teknologi Rekayasa Perangkat Lunak
 
 1. Validasi: Saya gunakan untuk mengecek file html
-2. 
+2. File yang divalidasi: Index.html, Kegiatan.html, Kontak.html
+3. Hasil:
+      Index.html:  (Tidak error)
+      Kegiatan.html: adanya atribut "," dan value  nama file jpg
+                perbaikan: mengganti nama file image, menghapus atribut ","
+      Kontak: (Tidak  Error)
