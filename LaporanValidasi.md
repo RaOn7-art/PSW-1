@@ -10,5 +10,5 @@ D4 Teknologi Rekayasa Perangkat Lunak
                 perbaikan: mengganti nama file image, menghapus atribut ","
       Kontak: (Tidak  Error)
 
-Alt dijelaskan jikagambar tidak ter-load, tidak ada jika gambar ter-load
- tabel tidak digunakan untuk layout karena melanggar fungsi semantik HTML dan merusak aksesibilitas.
+Alt dijelaskan jika gambar tidak ter-load, tidak ada jika gambar ter-load
+tabel tidak digunakan untuk layout karena melanggar fungsi semantik HTML dan merusak aksesibilitas.
