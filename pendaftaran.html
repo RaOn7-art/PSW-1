@@ -15,10 +15,8 @@
       <label for="email">Email (wajib)</label>
       <input id="email" name="email" type="email"
              autocomplete="email" required>
-      <div>
       <label for="phone">Nomor Telepon (wajib)</label>
       <input id="phone" name="phone" type="phone">
-      </div>
     <label for="prodi">Program studi (wajib)</label>
       <select id="prodi" name="prodi" required>
         <option value="">Pilih program studi</option>
@@ -32,20 +30,20 @@
        <input id="daring" name="mode" type="radio" value="daring">
         <label for="daring">Daring</label>
       </fieldset>
-        <div>
+      <label for="kode">Kode peserta (6 angka, wajib)</label>
+         <input id="kode" name="kode" type="text" inputmode="numeric" pattern="[0-9]{6}" aria-describedby="kode-help" required>
+         <p id="kode-help">Contoh: 001234. Gunakan tepat enam angka.</p>
       <label for="catatan">Catatan (opsional)</label>
       <textarea id="catatan" name="catatan" rows="4"
-                maxlength="300"></textarea></div>
-        <div><label>Jumlah Tiket</label></div>
+                maxlength="300"></textarea>
+        <label>Jumlah Tiket</label>
         <input type="number" min="1" max="5" value="1" name="jumlah_tiket" required>
       <fieldset>
   <legend>Minat Topik</legend>
-  
   <div>
     <input type="checkbox" id="topik-html" name="topik" value="html">
     <label for="topik-html">HTML</label>
   </div>
-
   <div>
     <input type="checkbox" id="topik-aksesibilitas" name="topik" value="aksesibilitas">
     <label for="topik-aksesibilitas">Aksesibilitas</label>
